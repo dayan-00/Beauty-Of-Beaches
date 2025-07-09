@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Quicksand:wght@300&family=Roboto:wght@100&display=swap"
+    rel="stylesheet">
+
+  <title>HELLO</title>
+  <link rel="stylesheet" href="assets/file/css/lightbox.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  
+  <div class="banner">
+
+    <div class="navbar">
+      <!-- <h2 style="color: white;">Beauty Of Beaches</h2> -->
+      <img class="logo"  src="images/Black and White Minimalist Wave Fashion Logo (1) (1).png" >
+      <ul class="nav-list" style="margin-top: -100px;">
+        <li class="two"><a href="Main.html">Home</a></li>
+        <li class="two"><a href="services.html">Services</a></li>
+        <li class="two"><a href="packages.html">Packages</a></li>
+        <li class="two"><a href="about.html">About</a></li>
+        <li class="two"><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="mobile">
+        <i class="fa-solid fa-bars menubar" onclick="showmenu()"></i>
+        <ul class="mobile-nav" id="mobile-nav-list">
+          <i class="fa-solid fa-xmark close" onclick="hidemenu()"></i>
+          <li class="two"><a href="Main.html">Home</a></li>
+          <li class="two"><a href="cards.html">Services</a></li>
+          <li class="two"><a href="packages.html">Packages</a></li>
+          <li class="two"><a href="about.html">About</a></li>
+          <li class="two"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <video autoplay loop muted plays-inline>
+      <source  src="images/Ocean.mp4" type="video/mp4" type="video/mp4" style="width: 1400px;">
+    </video>
+    
+
+    <div class="content" style="margin-top: 40PX;">
+      <h1>EXCITING ADVENTURES</h1>
+      <H2>ON THE COAST</H2>
+      <div>
+        <button type="button">Visit</button>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <!-- services -->
+  <br>
+  <div class="our-service ">
+    <h1 class="text-center fw-bold display-5 mb-4">Our Services</h1>
+    <br>
+    <br>
+    
+    <div class="row ">
+        <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="card-body text-center" id="after-line1">
+            <img src="images/SERVICES 3.png" class="img-fluid mb-2">
+            <h4 class="text-center text-uppercase mb-2">CRUISES</h4>
+            <p class="mt-4">Let us make your special day unforgettable at Oceanic Luxury Yachts by hosting your private events.</p>
+        </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card-body text-center" id="after-line2">
+            <img src="images/SERIVCES 2.png" class="img-fluid mb-2">
+            <h4 class="text-center text-uppercase mb-2">WATER SPORTS</h4>
+            <p class="mt-4">he Sea brings you drama, excitement, passion and thrill. It’s your time to unveil thrilling experience with Oceanic.</p>
+        </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card-body text-center" id="after-line3">
+                <img src="images/SERVICES 1.png" class="img-fluid mb-2">
+            <h4 class="text-center text-uppercase">CORPORATE EVENTS</h4>
+            <p class="mt-4">Your 2023 targets are on a high-note and we are excited to celebrate your teams’s achievements this season.</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card-body text-center" id="after-line4">
+             <img src="images/SERVICES 4.png" class="img-fluid mb-2">
+             <h4 class="text-center text-uppercase">BEACH HUT</h4>
+             <p class="mt-4">Sit back, relax and let us serve you in camp style at Oceanic Beach</p>
+            </div>
+        </div>
+        
+</div>
+
+
+
+
+
+  <!-- <div class="5container" id="services">
+    <h4 class="text-center display-5 fw-bold my-5 text-uppercase">SERVICES</h4>
+    <div class="row">
+      <div class="col-lg-3  col-md-6 col-sm-12">
+
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+          <div class="card-body">
+            <div class="icon">
+              <img src="images/services 1.png" alt="">
+            </div>
+          </div>
+          <div class="card-title text-center">
+            <h5 class="text-dark fw-bold text-uppercase text-center">Cruise Trip</h5>
+
+            <a href="#prices"><button
+                class="btn btn-primary border-0 btn-outline-dark text-uppercase fw-bold text-light col-auto">Read
+                More</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+          <div class="card-body">
+            <div class="icon">
+              <img src="images/services 2.png" alt="">
+            </div>
+          </div>
+          <div class="card-title text-center">
+            <h5 class="text-dark fw-bold text-uppercase text-center">Jet Ski</h5>
+
+            <a href="#prices"><button
+                class="btn btn-primary border-0 btn-outline-dark text-uppercase fw-bold text-light col-auto">Read
+                More</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+          <div class="card-body">
+            <div class="icon">
+              <img src="images/services 3.png" alt="">
+            </div>
+          </div>
+          <div class="card-title d-flex flex-column justify-content-evenl  text-center">
+            <div>
+
+              <h5 class="text-dark fw-bold text-uppercase text-center">Beach Hut</h5>
+
+            </div>
+            <a href="#prices"><button
+                class="btn btn-primary border-0 btn-outline-dark text-uppercase fw-bold text-light col-auto">Read
+                More</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+          <div class="card-body">
+            <div class="icon">
+              <img src="images/services 4.png" alt="">
+            </div>
+          </div>
+          <div class="card-title d-flex flex-column justify-content-evenly text-center">
+
+            <h5 class="text-dark fw-bold text-uppercase text-center">Corporate Events</h5>
+
+            <a href="#prices"><button
+                class="btn btn-primary border-0 btn-outline-dark text-uppercase fw-bold text-light col-auto">Read
+                More</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+          <div class="card-body">
+            <div class="icon">
+              <img src="images/services 5.png" alt="">
+            </div>
+          </div>
+          <div class="card-title text-center">
+            <h5 class="text-dark fw-bold text-uppercase text-center">Corporate Events</h5>
+            <a href="#prices"><button
+                class="btn btn-primary btn-outline-dark text-uppercase fw-bold text-light col-auto">Read
+                More</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+          <div class="card-body">
+            <div class="icon">
+              <img src="images/services 6.png" alt="">
+            </div>
+          </div>
+          <div class="card-title text-center">
+            <h5 class="text-dark fw-bold text-uppercase text-center">Scuba Diving</h5>
+
+            <a href="#prices"><button
+                class="btn btn-primary btn-outline-dark text-uppercase fw-bold text-light col-auto">Read
+                More</button></a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+          <div class="card-body">
+            <div class="icon">
+              <img src="images/services 7.png" alt="">
+            </div>
+          </div>
+          <div class="card-title text-center">
+            <h5 class="text-dark fw-bold text-uppercase text-center">Scuba Diving</h5>
+
+            <a href="#prices"><button
+                class="btn btn-primary btn-outline-dark text-uppercase fw-bold text-light col-auto">Read
+                More</button></a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+          <div class="card-body">
+            <div class="icon">
+              <i class="fa-solid fa-bus" id="bg-light"></i>
+              <img src="images/aiga_bus.png" height="73px">
+            </div>
+          </div>
+          <div class="card-title text-center">
+            <h5 class="text-dark fw-bold text-uppercase text-center">Transport Services</h5>
+            <p class="text-dark text-center"></p>
+            <a href="#prices">
+              <button class="btn btn-primary btn-outline-dark text-uppercase fw-bold text-light col-auto">Read
+                More</button></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div> -->
+  <!-- seervices end -->
+
+
+
+
+
+  <div class="col-lg-3 col-md-6 col-sm-12">
+    <div class="tick">
+      <div class="sea" data-aos="fade-right" style="opacity:0.7;">
+        <br>
+        <center>
+          <h3>Now Introducing our New</h3>
+          <h1 style="font-weight: 700;">Super Luxury Yacht</h1>
+          <p style="padding-right: 45px; padding-left: 45px;">A new work of art in true Oceanic fashion this year,
+            Oceanza-1 your new cruising style model 2024. A 100 foot long Super Luxury Yacht having capacity to
+            accommodate 150 guests onboard.</p>
+        </center>
+        <br>
+        <div class="side" style="margin-left: 20px;">
+          <li class="elementor-icon-list-item">
+            <span class="elementor-icon-list-icon">
+              <i aria-hidden="true" class="fas fa-users"></i> </span>
+            <span class="elementor-icon-list-text">Capacity: 150 Persons</span>
+          </li>
+          <li class="elementor-icon-list-item" style="margin-top: 8px;">
+            <span class="elementor-icon-list-icon">
+              <i aria-hidden="true" class="fas fa-fish"></i> </span>
+            <span class="elementor-icon-list-text">Live Fishing Activity (For Kids)</span>
+          </li>
+          <li class="elementor-icon-list-item" style="margin-top: 8px;">
+            <span class="elementor-icon-list-icon">
+              <i aria-hidden="true" class="fas fa-music"></i> </span>
+            <span class="elementor-icon-list-text">High-End Sound System</span>
+          </li>
+          <li class="elementor-icon-list-item" style="margin-top: 8px;">
+            <span class="elementor-icon-list-icon">
+              <i aria-hidden="true" class="fas fa-restroom"></i> </span>
+            <span class="elementor-icon-list-text">Separate Restrooms</span>
+          </li>
+          <li class="elementor-icon-list-item" style="margin-top: 8px;">
+            <span class="elementor-icon-list-icon">
+              <i aria-hidden="true" class="fas fa-medkit"></i> </span>
+            <span class="elementor-icon-list-text">All Safety Equipments Onboard</span>
+          </li>
+          <li class="elementor-icon-list-item" style="margin-top: 8px;">
+            <span class="elementor-icon-list-icon">
+              <i aria-hidden="true" class="fas fa-user"></i> </span>
+            <span class="elementor-icon-list-text">Caring Staff</span>
+          </li>
+          <li class="elementor-icon-list-item" style="margin-top: 8px;">
+            <span class="elementor-icon-list-icon">
+              <i aria-hidden="true" class="fas fa-tv"></i> </span>
+            <span class="elementor-icon-list-text">Multimedia (LED TV) onboard</span>
+          </li>
+          <li class="elementor-icon-list-item" style="margin-top: 8px;">
+            <span class="elementor-icon-list-icon">
+              <i aria-hidden="true" class="fas fa-wifi"></i> </span>
+            <span class="elementor-icon-list-text">Wi-Fi Onboard</span>
+          </li>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+
+
+  </div>
+
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+  <div class="container1" style="margin-top: 27px;">
+    <div class="image" data-aos="fade-right">
+      <img src="images/55555.jpg" class="images">
+    </div>
+    <div class="text" data-aos="fade-left">
+      <h1 style="font-weight: 750; color: black; outline: black; border: black;">Best Yacht On The Coast</h1>
+      <p class="para" style="text-align: center;">Experience luxury brand yachts of Oceanic by hosting your private events with entertainment,
+        cuisine and decor tailored to your needs.</p>
+      <button class="btn btn-primary btn-outline-dark text-uppercase fw-bold text-light col-auto">Read
+        More</button>
+    </div>
+  </div>
+
+  <div class="container1">
+    <div class="image">
+      <img src="images/ski.jpg" style="float: right; width: 800px;">
+      <div class="paras" data-aos="fade-right" style="margin-top: 110px;">
+        <h1 style="font-weight: 750; text-align: center; color: black; outline: black;">Your Summer Thrills</h1>
+        <p style="text-align: center;  ">The Sea brings you drama, excitement, passion and thrill all at the Oceanic
+          World of events</p>
+        <button style="margin-left: 205px;"
+          class="btn btn-primary btn-outline-primary text-uppercase fw-bold text-light col-auto">Read
+          More</button>
+      </div>
+    </div>
+
+  </div>
+  <div class="container1">
+    <div class="image" data-aos="fade-right">
+      <img src="images/22.jpg" class="images">
+    </div>
+    <div class="text" data-aos="fade-left">
+      <h1 style="font-weight: 750;  color: black; outline: black;">Who We Are?</h1>
+      <p style="text-align: center;">Oceanic started its sea operations in January 2010, we became the next level cruise
+        line and sea-water-adventure-sports company in Pakistan, with a growing community of 100,000 adventurous people.
+      </p>
+      <button class="btn btn-primary btn-outline-dark text-uppercase fw-bold text-light col-auto">Read
+        More</button>
+    </div>
+  </div>
+
+
+
+  <!-- histroy -->
+  <div class="bodys">
+    <div class="container-fluid" style=" background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)); height: 100%;">
+      <h1 class="text-center text-uppercase fw-bold text-white" style="padding-top: 30px; font-weight: 900;">OUR HISTROY
+      </h1>
+      <div class="row">
+        <div class="conatiner d-flex justify-content-evenly mt-5">
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex flex-column align-items-center">
+            <h2 class="display-1 text-white">400</h2>
+            <h5>VOYAGE</h5>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex flex-column align-items-center">
+            <h2 class="display-1 text-white">600</h2>
+            <h6>CORPORATE EVENTS</h6>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 d-flex flex-column align-items-center">
+            <h2 class="display-1 text-white">900</h2>
+            <h6>HOURS VOYAGED</h6>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center mt-5">
+        <div class="col-lg-12 d-flex flex-column align-items-center">
+          <h2 class="display-5 fw-bold  text-white">EXPLORE PAKISTAN BY SEA !</h2>
+          <h4 class="mt-4">We are committed to providing safe sea travels</h4>
+        </div>
+        <div class="row">
+          <div class="container d-flex justify-content-evenly mt-5">
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center">
+              <h4 class=" fw-bold">PACKAGE SELECTION</h4>
+              <p style="text-align: center;" class="text-white">Call now to enjoy the lowest prices available with no
+                hidden fees.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center">
+              <h4 class="fw-bold">ENJOY THE LUXURY</h4>
+              <p style="text-align: center;" class="text-white">That`s all, arrive at our location from there our staff
+                will take care of you.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center">
+              <h4 class="fw-bold">TIMING & RESERVATIONS</h4>
+              <p style="text-align: center;" class="text-white">Catch a Cruise Now. Easy modification to your
+                reservation as per your availability.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <!-- histroy end -->
+  <!-- our client -->
+  <h1 class="text-center text-uppercase fw-bold mt-5 " style="font-weight: 800;">Our Client</h1>
+  <div class="containers ">
+    <div class="slider-container">
+
+      <div class="slider-track">
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 1.png" width="140px">
+        </div>
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 2.png" width="140px">
+        </div>
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 3.png" width="140px">
+        </div>
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 4.png" width="140px">
+        </div>
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 5.png" width="140px">
+        </div>
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 6.png" width="140px">
+        </div>
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 7.png" width="140px">
+        </div>
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 8.png" width="140px">
+        </div>
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 9.png" width="140px">
+        </div>
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 1.png" width="140px">
+        </div>
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 2.png" width="140px">
+        </div>
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 3.png" width="140px">
+        </div>
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 4.png" width="140px">
+        </div>
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 5.png" width="140px">
+        </div>
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 6.png" width="140px">
+        </div>
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 7.png" width="140px">
+        </div>
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 8.png" width="140px">
+        </div>
+        <div class="slide" style="padding: 100px;">
+          <img src="images/our client 9.png" width="140px">
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- our client -->
+    <br>
+    <!-- PROJECTS START -->
+    <section id="projects">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8 mx-auto text-center">
+            <!-- <h6 class="text-primary">PROJECTS</h6> -->
+            <h1 style="font-weight: 750;">Our Gallery</h1>
+            <p>A beach is a landform alongside a body of water which consists of loose particles. The particles
+              composing a beach are typically made from rock, such as sand, gravel, shingle, pebbles, etc., or
+              biological sources, such as mollusc shells or coralline algae.</p>
+          </div>
+        </div>
+        <br>
+        <div class="row g-3">
+          <div class="col-lg-4 col-sm-8">
+            <div class="project">
+              <div class="galimg" >
+                <img src="images/wildnature.jpg">
+              </div>
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white">Wild Nature</h4>
+                  <h6 class="text-white">Picture Of Ocean</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="project">
+              <div class="galimg">
+                <img src="images/BEST BEACHES.jpg">
+              </div>
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white"> 30 Best Beaches</h4>
+                  <h6 class="text-white">Picture Of Beach</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="project">
+              <div class="dhgfhafvh">
+                <img src="images/en.avif" style="width: 100%;">
+              </div>
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white"> Beauty Of Sea </h4>
+                  <h6 class="text-white">Picture Of Beach</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="project">
+              <div class="galimg">
+                <img src="images/fish.jpeg">
+              </div>
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white"> Animal Natrue</h4>
+                  <h6 class="text-white">Picture Of Enjoying Fish</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="project">
+              <div class="galimg">
+                <img src="images/cr.avif">
+              </div>
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white"> Our Cruise</h4>
+                  <h6 class="text-white">Picture Of Cruise</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="project">
+              <div class="galimg"><img src="images/fish2.jpeg"></div>
+              <div class="overlay">
+                <div>
+                  <h4 class="text-white"> Whale </h4>
+                  <h6 class="text-white">Picture Of Sea</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    <!-- PROJECTS END -->
+    <br>
+    <br>
+    <br>
+   <br>
+   <br>
+    <div class="div" style="box-shadow: 10px 10px 30px black; border: black 100px; height: 400px; margin-right: 30px; margin-left: 40px;">
+   <br>
+   <br>
+      <div class = "line" style="margin-left: 480px;">
+        <div style="width: 150px;"></div>
+        <div></div>
+        <div style="width: 150px;"></div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <center>
+        
+      <h1 style="font-weight: bold; font-size: 60px; color: rgb(11, 11, 54); "> Browse more <span style="color: rgb(63, 197, 197); font-family: cursive;">Packages</span> Here </h1>
+      <a href="packages.html"><button  class="btn btn-primary btn-outline-primary text-uppercase fw-bold text-light col-auto" style="height: 50px;">SEE ALL PACKAGE</button></a>
+      
+      </center>
+      <br>
+      <br>
+      <div class = "line" style="margin-left:480px;">
+        <div style="width: 150px;"></div>
+        <div></div>
+        <div style="width: 150px;"></div>
+      </div>
+          </div>
+          <br>
+          <br>
+          <br>
+        
+
+            <!-- faqs -->
+            <br>
+            <br>
+
+    <div class="wrapper1">
+
+      <h1
+        style=" align-items: center; font-weight: bold; font-size: 60px; margin-top: 10px ; margin-bottom: 10px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+        F.A.Qs</h1>
+        <div class = "line" >
+          <div style="margin-left: 458px;width: 100px;"></div>
+         
+        </div>
+      <br>
+      <br>
+
+      <div class="faq">
+        <button class="accordion">
+          1. How to book?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel1">
+          <br>
+          <p>
+            Just provide us with the expected date of trip, preferred timing and let us know all your expectations for
+            the cruise and we will turn your expectation into reality.
+
+            Feel free to share your previous experiences and suggestions and everything will be taken care of. Give us
+            the total number of guests and we will recommend the (perfect/Ideal) package.
+            We can also organize Corporate events, Birthday Celebrations, Anniversaries, Perfect Get to Gather, Proposal
+            on yacht, Wedding/Engagement Events, Getaway Cruise.
+
+            Experience our Luxury Cuisine with a Personalized yacht decoration based on events and a thrilling water
+            sports experience.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          How is the booking process going?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel1">
+          <br>
+          <p>
+            We confirm the booking with either full payment or a 50% deposit, with the remaining 50% payable 48 hours
+            before the trip.
+
+            Deposit can be paid by multiple payment methods, after we send you the official quotation. Payment methods
+            available are direct bank transfer (online transfer), Cash deposit in any bank branch and/or pay via your
+            credit/debit card on POS at our office.
+
+            For the booking confirmation of the yacht, you need to secure it by a down payment by deposit.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          What are facilties available on the sea trip?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel1">
+          <br>
+          <p>
+            Oceanic Cruise offers the best in fun-filled and enthralling activities to keep adrenaline pumping until the
+            sun goes down.
+
+            ‼️Sea Cruise Ride 🚤
+            ‼️Live Fishing Experience For Kids & Families 🎣
+            ‼️SunSet Sightseeing 😎
+            ‼️Professional Photography 📷
+            ‼️Balon Decor 📷
+            ‼️Soft Music 🎼
+            ‼️Caring Staff 🙂
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          What is our departure location?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel1">
+          <br>
+          <p>
+            Our location is around 10 minutes’ drive from Port grand near Port of Karachi.
+
+            Once your sea travel itinerary is confirmed a dedicated tour guide will be available for you at Port gate to
+            receive you and take care all necessary arrangements.
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+    <br>
+    <br>
+    
+             <!--Testimonials------------------->
+   <section id="testimonials">
+    <!--heading--->
+    <div class="testimonial-heading">
+        <span>Let's see what our</span>
+        <h1>Clients Says</h1>
+        <br>
+        
+        <div class = "line">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+    </div>
+    <!--testimonials-box-container------>
+    <div class="testimonial-box-container">
+        <!--BOX-1-------------->
+        <div class="testimonial-box">
+            <!--top------------------------->
+            <div class="box-top">
+                <!--profile----->
+                <div class="profile">
+                    <!--img---->
+                    <div class="profile-img">
+                        <img src="images/pfp 1.jpg" />
+                    </div>
+                    <!--name-and-username-->
+                    <div class="name-user">
+                        <strong>Xavier</strong>
+                        <span>@Xavier</span>
+                    </div>
+                </div>
+                <!--reviews------>
+                <div class="reviews">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><!--Empty star-->
+                </div>
+            </div>
+            <!--Comments---------------------------------------->
+            <div class="client-comment">
+                <p>It was great experience thank you oceanic for make a memory in our lifes. Appreciation for you services keep it up 😍 and your website is actaully exciting. </p>
+            </div>
+        </div>
+        <!--BOX-2-------------->
+        <div class="testimonial-box">
+            <!--top------------------------->
+            <div class="box-top">
+                <!--profile----->
+                <div class="profile">
+                    <!--img---->
+                    <div class="profile-img">
+                        <img src="images/pfp 2.jpg" />
+                    </div>
+                    <!--name-and-username-->
+                    <div class="name-user">
+                        <strong>Cena</strong>
+                        <span>@JohnCena</span>
+                    </div>
+                </div>
+                <!--reviews------>
+                <div class="reviews">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i><!--Empty star-->
+                </div>
+            </div>
+            <!--Comments---------------------------------------->
+            <div class="client-comment">
+              <p>We had wonderful experience yesterday, my family really enjoyed alot.  
+                infact It was the first time when i wasn't even worried to travel  with my kids on Cruise.😁 </p>
+            </div>
+        </div>
+        <!--BOX-3-------------->
+        <div class="testimonial-box">
+            <!--top------------------------->
+            <div class="box-top">
+                <!--profile----->
+                <div class="profile">
+                    <!--img---->
+                    <div class="profile-img">
+                        <img src="images/pfp 3.jpg" />
+                    </div>
+                    <!--name-and-username-->
+                    <div class="name-user">
+                        <strong>Hitlar1899</strong>
+                        <span>HitlarOfficial</span>
+                    </div>
+                </div>
+                <!--reviews------>
+                <div class="reviews">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i><!--Empty star-->
+                </div>
+            </div>
+            <!--Comments---------------------------------------->
+            <div class="client-comment">
+              <p>This would be the most beautiful way to express love with your family. 
+                100% recommended. well i got no jews to shoot but still 10/10 😇 and your website is actaully exciting.</p>
+            </div>
+        </div>
+        <!--BOX-4-------------->
+        <div class="testimonial-box">
+            <!--top------------------------->
+            <div class="box-top">
+                <!--profile----->
+                <div class="profile">
+                    <!--img---->
+                    <div class="profile-img">
+                        <img src="images/pfp 4.jpg" />
+                    </div>
+                    <!--name-and-username-->
+                    <div class="name-user">
+                        <strong>Steve</strong>
+                        <span>@Stevereal </span>
+                    </div>
+                </div>
+                <!--reviews------>
+                <div class="reviews">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i><!--Empty star-->
+                </div>
+            </div>
+            <!--Comments---------------------------------------->
+            <div class="client-comment">
+                <p>Highly recommended for family Picnic Trips and Birthday parties. Great peaceful Environment, humble and cooperative staff and best hygiene food. 🥰</p>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="container" style="margin-right:80px;">
+        <div class="row">
+          <div class="footer-col">
+            <h4 style="margin-left:30px ;">company</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">affiliate program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 style="margin-left:30px ;"> get help</h4>
+            <ul>
+              <li><a href="#">FAQ's</a></li>
+              <li><a href="#">shipping</a></li>
+              <li><a href="#">returns</a></li>
+              <li><a href="#">order status</a></li>
+              <li><a href="#">payment options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <div class="head">
+              <h4 style="margin-left:-27px ;">timing</h4>
+            </div>
+            <div class="div" style="margin-left:-58px ;">
+              <ul class="get">
+                <li><a href="#">Monday-Friday:12pm to 10pm</a></li>
+                <li><a href="#">Saturday-Sundy:11am to 1am</a></li>
+
+              </ul>
+            </div>
+
+
+          </div>
+          <div class="footer-col">
+            <div class="heads">
+              <h4>follow us</h4>
+            </div>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <script src="assets/file/js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+<script>
+  AOS.init({ duration: 1200 });
+</script>
+
+
+<script>
+  let links = document.getElementById("mobile-nav-list")
+
+  function showmenu() {
+
+    links.classList.add("active")
+
+  }
+
+  function hidemenu() {
+    links.classList.remove("active")
+
+  }
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      this.parentElement.classList.toggle("active");
+
+      var pannel = this.nextElementSibling;
+
+      if (pannel.style.display === "block") {
+        pannel.style.display = "none";
+      } else {
+        pannel.style.display = "block";
+      }
+    });
+  }
+</script>
+
+</html>
